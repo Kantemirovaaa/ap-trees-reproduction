@@ -1,0 +1,12 @@
+# Data (downloaded automatically by the notebook)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
