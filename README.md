@@ -77,3 +77,27 @@ Run all cells in order. The first run downloads the data automatically (~1 GB fr
 - The year labels in the authors' files (`yy` column) are shifted by one year relative to the real dates (`date` column). We use `date` for correct timing. See Section 2 of the notebook for the verification.
 
 ## Repository structure
+
+``` 
+├── AP_Trees_reproduction.ipynb   # Main notebook: full reproduction pipeline
+├── README.md
+├── requirements.txt              # Python dependencies
+├── figures/                      # Key figures from the notebook
+│   ├── sr_paper_vs_ours.png
+│   ├── sr_vs_k.png
+│   ├── sr_vs_k_test.png
+│   ├── sdf_weights.png
+│   ├── interactions.png
+│   ├── bootstrap.png
+│   └── overfitting.png
+├── slides/
+│   └── presentation.pdf          # Slide deck
+└── data/                         # Created on first run (NOT in the repo)
+    ├── Data.zip                  #   Auto-downloaded from Dropbox (~1 GB)
+    ├── authors/                  #   Extracted author files
+    └── *.csv                     #   Fama-French factor files
+```
+## References
+
+- Bryzgalova, S., Pelger, M., & Zhu, J. (2025). Forest through the Trees: Building Cross-Sections of Stock Returns. *The Journal of Finance*, 80(5), 2447--2506. [DOI](https://doi.org/10.1111/jofi.13448)
+- Authors' code and data: [https://sites.google.com/view/mpelger/code-and-data](https://sites.google.com/view/mpelger/code-and-data)    
